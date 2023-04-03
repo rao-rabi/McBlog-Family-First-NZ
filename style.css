@@ -1,0 +1,129 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navar */
+
+.nav-bg {
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 0px 15px -10px rgb(117, 117, 117);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.nav-link:hover{
+  color: #75bdbb !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%285, 182, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.btn-donate {
+  background-color: #559f30;
+}
+.btn-donate:hover {
+  background-color: black;
+}
+
+/* card-section */
+
+.card-section {
+  margin-top: 8%;
+}
+.card-4 {
+  margin-top: -20%;
+}
+.card-6 {
+  margin-top: -10%;
+}
+.card-8 {
+  margin-top: -20%;
+}
+.card-10 {
+  margin-top: -10%;
+}
+
+/* posts */
+
+.text-relatedpost {
+  color: #75bdbb;
+}
+.text-relatedpost:hover {
+  cursor: pointer;
+  color: black;
+}
+.page-link {
+  color: #75bdbb;
+}
+.btn-contact {
+  background-color: #559f30;
+}
+.btn-contact:hover {
+  background-color: black;
+}
+
+/* footer */
+
+.footer {
+  background-color: #3a3a3a;
+}
+.select-option {
+  color: rgba(49, 47, 47, 0.6);
+}
+.select-option:active {
+  color: #75bdbb;
+}
+.img-social {
+  width: 2.5rem;
+}
+.btn-search {
+  background-color: #383535;
+}
+.btn-search:hover {
+  background-color: black;
+}
+/* footer-end */
+.footer-text:hover{
+  color: #ef4297 !important;
+}
+
+/* media query */
+
+@media only screen and (max-width: 768px) {
+  .ul-bg {
+    background-color: rgb(249, 249, 249);
+  }
+  .nav-item {
+    border-bottom: 1px solid rgb(202, 200, 200);
+  }
+  .btn-donate {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: -9px;
+    border: none;
+  }
+  .btn-donate:hover{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: -9px;
+    border: none;
+  }
+  .card-section {
+    margin-top: 15% !important;
+  }
+}
+@media only screen and (max-width:1025px) {
+  .card-section {
+    margin-top: 12%;
+  }
+}
+@media only screen and (max-width:426px) {
+  .card-section {
+    margin-top: 30% !important;
+  }
+}
